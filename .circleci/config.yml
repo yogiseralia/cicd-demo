@@ -35,5 +35,5 @@ jobs:
           name: Generate APK
           command: ./gradlew assemble
       - store_artifacts: # for display in Artifacts: https://circleci.com/docs/2.0/artifacts/
-          path: app/build/outputs/apk/debug
-          destination: debug-apks
+          path: app/build/outputs/apk
+          destination: apks
